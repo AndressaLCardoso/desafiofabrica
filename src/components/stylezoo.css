@@ -1,0 +1,60 @@
+body{
+    background-color:#f3d0ab ;
+}
+
+ul li{
+    padding: 10px;
+    text-align: center;
+}
+
+li{
+    list-style: none;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+    padding: 0;
+}
+
+p {
+    text-align: center;
+}
+
+.card{
+    display: flex;
+    background: #f4dfca;
+    border: 1px solid #FAFAFA;
+    max-width: 900px;
+    min-height: 200px;
+    padding: 8px;
+    border-radius: 12px;
+    margin: 10px auto;
+    box-shadow: 1px 6px 20px 5px rgba(0,0,0,0.84);
+}
+
+.descricao {
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: 1px solid;
+}
+
+#box {
+    width: 50%;
+    margin: 10px auto;
+}
+
+.btn {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #ADE0B5;
+}
+
+.btn:hover {
+    background-color: rgb(108, 251, 137);
+  }
